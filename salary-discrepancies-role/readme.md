@@ -1,12 +1,40 @@
-in this code, I have analyzed salary discrepancies by role.
+Salary Discrepancies Analysis by Role
 
-Mainly focusing on the Annual Salaries column, these are the steps I followed:-
+In this code, I have analyzed salary discrepancies by role within an organization. The main focus is on the "Annual Salaries" column of the dataset. Here are the steps followed in the analysis:
 
-1. Data cleaning -
+1. Data Cleaning
 
- The salaries in the column initially took the format $123,456. This value has two non-numeric characters, the comma (,) and the dollar sign ($), started off by removing the non-numeric characters.
+Initially, the salaries in the column had the format "$123,456" with non-numeric characters (comma and dollar sign). To clean the data, I removed these non-numeric characters and converted the values to integers since they were stored as strings.
 
- The next step was to change the values to an integer because they are strings. 
+2. Mean Salaries per Department
 
-2
+After data cleaning, the first operation performed was to calculate the mean salaries per department. Here are the findings:
+
+-Accounting has the highest mean annual salary among the departments, with an average of approximately $123,147.
+
+-Engineering and Finance also have relatively high mean annual salaries, averaging around $109,035 and $122,803, respectively.
+
+-Human Resources and Sales have average mean annual salaries of approximately $118,058 and $111,050, respectively.
+
+-IT has a slightly lower mean annual salary compared to the above departments, with an average of approximately $97,790.
+
+-Marketing has the highest mean annual salary among all the departments, with an average of around $129,663.
+
+-The mean salary analysis provides insights into the average compensation levels within different departments.
+
+3. Role-based Salary Discrepancies
+
+To further explore potential salary discrepancies, the analysis focused on role-based comparisons. Here are additional insights obtained from this analysis:
+
+-The role with the highest mean annual salary is "Vice President," with an average salary of approximately $222,195.
+
+-Roles such as "Director," "Manager," and "Sr. Manager" also have relatively high mean annual salaries, ranging from around $113,275 to $171,634.
+
+-Roles like "Account Representative," "Analyst," and "Business Partner" have lower mean annual salaries, ranging from approximately $49,560 to $78,929.
+
+-Some roles, such as "Technical Architect," "IT Systems Architect," and "Cloud Infrastructure Architect," have average salaries in the range of $79,000 to $87,000.
+
+-The minimum and maximum salary values provide an understanding of the salary range within each role.
+
+By performing this analysis, we gain insights into salary distributions and potential inequities within the organization based on job roles. This information can be useful for identifying areas of improvement, ensuring fair compensation practices, and maintaining employee satisfaction and morale.
 
