@@ -38,3 +38,26 @@ To further explore potential salary discrepancies, the analysis focused on role-
 
 By performing this analysis, we gain insights into salary distributions and potential inequities within the organization based on job roles. This information can be useful for identifying areas of improvement, ensuring fair compensation practices, and maintaining employee satisfaction and morale.
 
+VISUALISATION
+
+1. Extracting job titles and defining bar plot parameters:
+
+2. We extract the job titles from the index of the role_statistics DataFrame.
+Positions and width are defined for the bars in the bar plot.
+Creating the grouped bar plot:
+
+We create a figure with the desired size using plt.figure().
+
+Two bar plots are created side by side, representing the mean and median salaries for each job title.
+Axes labels, title, and legends are added to the plot.
+
+The x-axis tick labels are updated to display the job titles using plt.xticks().
+
+The layout is adjusted for better visibility using plt.tight_layout().
+Saving the plot:
+
+The plot is saved as a PNG file using the savefig() function.
+Displaying the plot:
+
+The plot is shown using plt.show().
+
